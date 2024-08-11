@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.banner {
+    background-image: url('images/banner-img.webp');
+    background-size: cover;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.logo {
+    display: flex;
+    height: 28px;
+}
+
+.banner-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+    max-width: 800px;
+    text-align: center;
+    margin-top: 48px;
+    gap: 2.5rem;
+}
+
+.banner-data p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.banner-data h2 {
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.dot{
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: rgb(250, 89, 89);
+}
+
+.banner-dot{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.banner-buttons button , .over-buttons button{
+    font-size: 14px;
+    padding: 20px 28px;
+    border-radius: 40px;
+    border: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.banner-buttons button:hover , .over-buttons button:hover{
+    transform: scale(1.1, 1.05);
+}
+
+.banner-buttons, .over-buttons{
+    padding-top: 24px;
+    display: flex;
+    gap: 20px;
+}
+
+.black-btn{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.7);
+}
+
+.arrow{
+    font-size: 20px;
+}
+
+.video-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 670px;
+    background-color: rgb(239, 239, 239);
+}
+
+.video-img{
+    z-index: 1;
+    margin: 30px;
+    width: 72%;
+    border-radius: 20px;
+}
+
+.play-btn{
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(78, 77, 75);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-image{
+    width: 15%;
+}
+
+.video-section label{
+    position: absolute;
+    margin: 480px 0px 0px -900px;
+    color: white;
+    font-size: 24px;
+    z-index: 2;
+}
+
+.cards-section{
+    background-color: rgb(239, 239, 239);
+    padding: 60px 0px;
+}
+
+.cards{
+    margin: 0px 345px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 30px;
+}
+
+.card{
+    width: 400px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-image{
+    width: 100%;
+    height: 92%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.card-data{
+    font-size: 12px;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.card-data label{
+    color: rgb(19, 18, 17);
+    font-weight: bold;
+}
+
+.card-data a{
+    color: rgb(155, 153, 151);
+    display: flex;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.card-data a:hover{
+    color: rgb(19, 18, 17);
+    font-weight: bold;
+}
+
+.menu{
+    background-color: rgb(234, 233, 233);
+    height: 1000px;
+    width: 100%;
+}
+
+.menu-1{
+    margin: 20px 0px 0px 730px;
+    width: 115px;
+    transform: rotate(8deg);
+    border-radius: 26px;
+    box-shadow: 5px 7px 9px rgba(0, 0, 0, 0.6);
+    position: absolute;
+}
+
+.menu-2{
+    position: absolute;
+    margin: 240px 0px 0px 60px;
+    width: 110px;
+    border-radius: 25px;
+    transform: rotate(-2deg);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.4);
+}
+
+.menu-text{
+    width: 380px;
+    padding: 0px 25px;
+    position: absolute;
+    margin: 130px 0px 0px 370px;
+}
+
+.menu-text h1{
+    font-size: 130px;
+    width: 300px;
+    color: rgb(19, 18, 17);
+    line-height: 105px;
+}
+
+.gray-text{
+    color: rgb(180, 179, 177);
+    margin-left: -20px;
+}
+
+.lists{
+    margin: 60px 0px 44px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lists ul{
+    list-style: none;
+    font-size: 14px;
+    color: rgb(19, 18, 17);
+}
+
+li{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.tick{
+    width: 20px;
+}
+
+.over-div{
+    background-color: white;
+    margin-left: -25px;
+    width: 430px;
+    height: 240px;
+    border-radius: 25px;
+    padding: 28px;
+}
+
+.over-div-gray{
+    font-size: 13px;
+    color: rgb(155, 153, 151);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.over-div-price{
+    font-size: 32px;
+    letter-spacing: -2px;
+}
+
+.small-font{
+    font-size: 14px;
+}
+
+.over-div-red{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.over-div-red-text{
+    font-size: 13px;
+    color: rgb(250, 89, 89);
+    font-weight: bold;
+}
+
+.over-buttons button{
+    font-size: 12px;
+    padding: 14px 18px;
+}
+
+.over-buttons{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.over-buttons a, .over-div-end a{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.15s ease;
+}
+
+.over-buttons a:hover, .over-div-end a:hover{
+    text-decoration: none;
+    color: rgb(155, 153, 151);
+    transform: scale(1.1);
+}
+
+.line{
+    background-color: rgb(227, 227, 226);
+    width: 100%;
+    height: 1px;
+    margin: 25px 0px;
+}
+
+.over-div-end-gray{
+    color:  rgb(155, 153, 151);;
+}
+
+.over-div-end P{
+    font-size: 13px;
+}
+
+.menu-3{
+    position: absolute;
+    width: 540px;
+    margin: 210px 0px 0px 979px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 30px;
+}
+
+.menu-4{
+    position: absolute;
+    width: 75px;
+    border-radius: 10px;
+    margin: 475px 0px 0px 200px;
+    transform: rotate(3deg);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu-5{
+    position: absolute;
+    width: 330px;
+    border-radius: 15px;
+    margin: 700px 0px 0px -110px;
+    transform: rotate(-4deg);
+    box-shadow: -4px 9px 7px rgba(0, 0, 0, 0.4);
+}
+
+.menu-6{
+    position: absolute;
+    width: 380px;
+    margin: 850px 0px 0px 1060px;
+    border-radius: 20px;
+    transform: rotate(8deg);
+}
